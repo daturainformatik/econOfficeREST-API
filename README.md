@@ -12,8 +12,12 @@ Die econOffice<sup>&reg;</sup> REST-API hält sich an diese Konvention.
 
 Vorhandene REST-Services:
 
-* Authentifizierung: [login](/login)
-* Mandanten: [mandator](/mandator)
-* Wechselkurse: [exchangeRates](/exchangeRates)
-* Kontakt-Liste: [contactList](/contacts/contact)
-* Kontakt-Adresse: [contactAddress](/contacts/contactAddress)
+|Service|URL|GET|POST|PUT|DELETE|
+|---|---|:-:|:-:|:-:|:-:|
+|[Authentifizierung](/login)|login|&#10004;|&#10004;|&#10008;|&#10004;|
+|[Mandanten](/mandator)|mandator|&#10004;|&#10008;|&#10008;|&#10008;|
+|[Wechselkurse](/exchangeRates)|exchangeRates|&#10004;|&#10008;|&#10008;|&#10008;|
+[Kontakt-Liste](/contacts/contactAddress)|contactAddresses|&#10004;|&#10008;|&#10008;|&#10008;|
+[Kontakt](/contacts/contactAddress)|contact|&#10004;|&#10008;|&#10008;|&#10008;|
+[Einstellungen](/settings/settingList)|settings|&#10004;|&#10008;|&#10008;|&#10008;|
+[Einstellung](/settings/setting)|setting|&#10004;|&#10008;|&#10008;|&#10008;|
