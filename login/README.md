@@ -241,12 +241,7 @@ Die dortige Antwort hat immer den Http-Status: 200 - OK)
 ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
   <response>
-      <status>0</status>
-      <startRow>0</startRow>
-      <endRow>0</endRow>
-      <totalRows>0</totalRows>
-      <timeInMillis>0</timeInMillis>
-      <client>[missing]</client>
+      <client>demo</client>
       <version>1</version>
       <created>Mon Oct 21 14:59:41 CEST 2013</created>
       <message>Bye</message>
