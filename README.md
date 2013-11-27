@@ -7,6 +7,7 @@ In der Regel werden mittels *POST* neue Resourcen erstellt, und mittels *PUT* be
 Die econOfficeREST-API hält sich an diese Konvention.
 
 * Responses sind grundsätzlich in den Formaten XML und JSON verfügbar.
+* Responses können in mehreren Versionen (d.h. Strukturierung/Umfang) vorliegen. Eine Beschreibung der einzelnen Versionen finden Sie bei der Beschreibung des jeweiligen Services.
 * Responses werden mittels des Parameters *asFile=true* als Datei-Stream übermittelt. D. h. Die Antwort kann als Datei gespeichert werden.
 
 Vorhandene REST-Services:
