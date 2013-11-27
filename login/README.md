@@ -2,9 +2,14 @@
 
 # Login Service
 
-URI: ${domain}/rest/login
+<table>
+<tr><td>URI</td><td>${domain}/rest/login/${version}</td></tr>
+<tr><td>Beispiel</td><td>http(s)://beispiel.econoffice.com/rest/login</td></tr>
+</table>
 
-Beispiel: http(s)://beispiel.econoffice.com/rest/login
+## Versionen:
+
+1. Enthält sämtliche, dem System bekannten Angaben zum Benutzer in strukturierter Form.
 
 ## GET
 Zeigt alle Angaben zum aktuell authentifizierten Benutzer.
