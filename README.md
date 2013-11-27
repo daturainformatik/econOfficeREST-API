@@ -14,5 +14,5 @@ Vorhandene REST-Services:
 * Authentifizierung: [login](/login)
 * Mandanten: [mandator](/mandator)
 * Wechselkurse: [exchangeRates](/exchangeRates)
-* Kontakt-Liste: [contactList](/contacts/contactList)
+* Kontakt-Liste: [contactList](/contacts/contact)
 * Kontakt-Adresse: [contactAddress](/contacts/contactAddress)
