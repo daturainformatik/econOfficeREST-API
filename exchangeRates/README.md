@@ -2,20 +2,20 @@
 
 # Mandant
 
-URI: ${domain}/rest/mandator/${version}
+<table>
+<tr><td>URI</td><td>${domain}/rest/mandator/${version}</td></tr>
+<tr><td>Beispiel</td><td>http(s)://beispiel.econoffice.com/rest/mandator/1?currency.isoCode=CHF</td></tr>
+</table>
 
-Beispiel: http(s)://beispiel.econoffice.com/rest/mandator/1?currency.isoCode=CHF
-
-Demo-Link: to be defined
 
 ## GET
-noch nicht implementiert
+Beschreibung pendent
 
 ## POST
-noch nicht implementiert
+noch nicht spezifiziert
 
 ## PUT
-noch nicht implementiert
+noch nicht spezifiziert
 
 ## DELETE
-noch nicht implementiert
+noch nicht spezifiziert
