@@ -2,10 +2,7 @@
 
 # Login Service
 
-<table>
-<tr><td>URI</td><td>${domain}/rest/login/${version}</td></tr>
-<tr><td>Beispiel</td><td>http(s)://beispiel.econoffice.com/rest/login</td></tr>
-</table>
+
 
 ## Versionen:
 
@@ -14,9 +11,10 @@
 ## GET
 Zeigt alle Angaben zum aktuell authentifizierten Benutzer.
 
-Parameter: keine
+###Parameter 
+keine
 
-Erfolg - der Benutzer ist eingeloggt (Http-Status: 200 - OK)
+**Erfolg:** *der Benutzer ist eingeloggt (Http-Status: 200 - OK)*
 
 ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -195,7 +193,7 @@ Erfolg - der Benutzer ist eingeloggt (Http-Status: 200 - OK)
   </response>
 ```
 
-Misserfolg - Kein Benutzer ist eingeloggt (Http-Status: 401 - Unauthorized):
+**Misserfolg:** *Kein Benutzer ist eingeloggt (Http-Status: 401 - Unauthorized)*
 
 ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -207,16 +205,17 @@ Misserfolg - Kein Benutzer ist eingeloggt (Http-Status: 401 - Unauthorized):
 ## POST
 Loggt den Benutzer ein. 
 
-Parameter:
-* username: Es wird erwartet, dass der username in der Form *username*@*kundenname* vorliegt
-* password: Das Passwort des Benutzers (Die Verschlüsselung erfolgt über SSL)
+### Parameter
+|Name|Beschreibung|Standardwert|
+|username| Es wird erwartet, dass der username in der Form `username@kundenname` vorliegt|leerer String|
+|password| Passwort des Benutzers (SSL verschlüsselt)|leerer String|
 
-Erfolg - Benutzerangaben stimmen (Http-Status: 200 - OK)
+**Erfolg:** *Benutzerangaben stimmen (Http-Status: 200 - OK)*
 
 Gleiche Antwort, wie bei GET (siehe dort)
 
 
-Misserfolg - Parameter fehlt (Http-Status: 400 - Bad Request)
+**Misserfolg:** *Parameter fehlt (Http-Status: 400 - Bad Request)*
 
 ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -225,7 +224,7 @@ Misserfolg - Parameter fehlt (Http-Status: 400 - Bad Request)
   </response>
 ```
 
-Misserfolg - Authentifizierung schlägt fehl (Http-Status: 401)
+**Misserfolg:** *Authentifizierung schlägt fehl (Http-Status: 401)*
 
 ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -237,9 +236,10 @@ Misserfolg - Authentifizierung schlägt fehl (Http-Status: 401)
 ## DELETE
 Loggt den Benutzer aus.
 
-Parameter: keine
+### Parameter 
+keine
 
-Erfolg - Der Benutzer war eingeloggt (Http-Status: 303 - Redirect)
+**Erfolg:** *Der Benutzer war eingeloggt (Http-Status: 303 - Redirect)*
 
 Es findet aus technischen Gründen ein Weiterleitung auf eine andere Seite statt (${domain}/rest/bye).
 
@@ -255,7 +255,7 @@ Die dortige Antwort hat immer den Http-Status: 200 - OK)
   </response>
 ```
 
-Misserfolg - Der Benutzer ist nicht eingeloggt (Http-Status: 401)
+**Misserfolg:** *Der Benutzer ist nicht eingeloggt (Http-Status: 401)*
 
 ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
