@@ -1,10 +1,18 @@
 [Übersicht](../)
 
-# Login Service
+# Login Service 
+`${domain}/rest/login/${version}`
+
+Typ|Aufgabe
+---|---
+GET|Zeigt Angaben zum eingeloggten Benutzer
+POST|Loggt einen Benutzer ein
+DELETE|Loggt einen Benuter aus
+
+*Demo:* to be defined
 
 
-
-## Versionen:
+## Versionen
 
 1. Enthält sämtliche, dem System bekannten Angaben zum Benutzer in strukturierter Form.
 
@@ -206,9 +214,10 @@ keine
 Loggt den Benutzer ein. 
 
 ### Parameter
-|Name|Beschreibung|Standardwert|
-|username| Es wird erwartet, dass der username in der Form `username@kundenname` vorliegt|leerer String|
-|password| Passwort des Benutzers (SSL verschlüsselt)|leerer String|
+Name|Beschreibung|Standardwert
+---|---|---
+username| Es wird erwartet, dass der username in der Form `username@kundenname` vorliegt|leerer String
+password| Passwort des Benutzers (SSL verschlüsselt)|leerer String
 
 **Erfolg:** *Benutzerangaben stimmen (Http-Status: 200 - OK)*
 
@@ -241,9 +250,9 @@ keine
 
 **Erfolg:** *Der Benutzer war eingeloggt (Http-Status: 303 - Redirect)*
 
-Es findet aus technischen Gründen ein Weiterleitung auf eine andere Seite statt (${domain}/rest/bye).
+Es findet aus technischen Gründen ein Weiterleitung auf eine andere Seite statt (`${domain}/rest/bye`).
 
-Die dortige Antwort hat immer den Http-Status: 200 - OK)
+Die dortige Antwort hat immer den Http-Status: 200 - OK
 
 ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
