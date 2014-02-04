@@ -6,9 +6,19 @@
 <table>
 <tr><td>URI</td><td>${domain}/rest/contact/${version}</td></tr>
 <tr><td>Beispiel</td><td>http(s)://beispiel.econoffice.com/rest/contact/1?contactNumber=42</td></tr>
-<tr><td>Demo</td><td>http://dws.econoffice.ch/rest/contact/1?contactNumber=20812</td></tr>
-<tr><td></td><td>Authorisierung, Nutzer und Passwort: demo@client_1, secret. (Daten des Demo Adress-Dossiers von Ziswyler Laura)</td></tr>
 </table>
+
+### Online-Beispiele
+
+Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Passwort eingegen. Auswahl:
+
+- demo@client_1, secret
+- root@client_1, datura
+
+1. [Daten des Adress-Dossiers mit der Nummer 20812, von Ziswyler Laura](http://dws.econoffice.ch/rest/contact/1?contactNumber=20812)
+2. [Daten des Adress-Dossiers mit der Nummer 16119 (zum Ausprobieren einfach die Adress-Nummer ändern)](http://dws.econoffice.ch/rest/contact/1?contactNumber=16119)
+
+
 
 ## GET
 Beschreibung kommt
