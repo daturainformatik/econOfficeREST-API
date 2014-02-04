@@ -2,7 +2,7 @@
 
 [Kontakte](../)
 
-# Kontakt-Adresse
+# Kontakt-Adresse(n)
 Gibt eine Liste von Kontakt-Adressen zurück, auf die alle Suchparameter zutreffen.
 
 <table>
