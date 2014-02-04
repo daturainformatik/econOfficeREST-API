@@ -18,7 +18,7 @@ Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Pa
 - root@client_1, datura
 
 1. [Postleitzahl beginnend mit dem Wert '8' und Nachname beginnend mit 'ack'](http://dws.econoffice.ch/rest/contactAddresses/1?structuredAddress.postalCode=8&structuredName.lastname=Ack)
-2. [Postleitzahl beginnend mit dem Wert '9' und Nachname beginnend mit 'web'](http://dws.econoffice.ch/rest/contactAddresses/1?structuredAddress.postalCode=9__4&structuredName.lastname=Web)
+2. [Postleitzahl beginnend mit dem Wert '9' und Nachname beginnend mit 'web'](http://dws.econoffice.ch/rest/contactAddresses/1?structuredAddress.postalCode=9&structuredName.lastname=Web)
 3. [Postleitzahl beginnend mit dem Wert '9' und endend mit '4', und Nachname beginnend mit 'web'](http://dws.econoffice.ch/rest/contactAddresses/1?structuredAddress.postalCode=9__4&structuredName.lastname=Web)
 
 
