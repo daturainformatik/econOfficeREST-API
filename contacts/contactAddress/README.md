@@ -72,4 +72,4 @@ Parameter: die einzelnen Felder der XML-contactAddress-Knoten
 ```
 
 # POST/PUT/DELETE
-Steht nicht zur Verfügung
+Stehen nicht zur Verfügung
