@@ -3,7 +3,7 @@
 An dieser Stelle finden Sie die Spezifikationen der verfügbaren REST-APIs.
 
 Leider ist im allgmeinen nicht völlig klar definiert, wodurch sich *POST*- und *PUT*-Requests unterscheiden.
-In der Regel werden mittels *POST* neue Resourcen erstellt, und mittels *PUT* bestehende Resourcen geändert.
+Bei uns werden mittels *POST* bestehende Resourcen geändert, und mittels *PUT* neue Resourcen erzeugt.
 Die econOffice<sup>&reg;</sup> REST-API hält sich an diese Konvention.
 
 * Responses sind grundsätzlich in den Formaten XML und JSON verfügbar.
@@ -15,12 +15,14 @@ Vorhandene REST-Services:
 |Service|URL|GET|POST|PUT|DELETE|
 |---|---|:-:|:-:|:-:|:-:|
 |[Authentifizierung](/login)|login|&#10004;|&#10004;|&#10008;|&#10004;|
-|[Mandanten](/mandator)|mandator|&#10004;|(&#10004;)|(&#10004;)|(&#10004;)|
-|[Wechselkurse](/exchangeRates)|exchangeRates|&#10004;|(&#10004;)|&#10008;|&#10008;|
+|[Mandanten](/mandator)|mandator|&#10004;|&#10008;|&#10008;|&#10008;|
+|[Wechselkurse](/exchangeRates)|exchangeRates|&#10004;|&#10008;|&#10008;|&#10008;|
 [Kontakt-Liste](/contacts/contactAddress)|contactAddresses|&#10004;|&#10008;|&#10008;|&#10008;|
-[Kontakt](/contacts/contactAddress)|contact|&#10004;|(&#10004;)|(&#10004;)|(&#10004;)|
+[Kontakt-Adresse](/contacts/contactAddress)|contactAddress|&#10004;|&#10004;|&#10004;|&#10004;|
+[Vollständiger Kontackt](/contacts/contact)|contact|&#10004;|&#10008;|&#10008;|&#10008;|
 [Einstellungen](/settings/settingList)|settings|&#10004;|&#10008;|&#10008;|&#10008;|
-[Einstellung](/settings/setting)|setting|&#10004;|(&#10004;)|(&#10004;)|(&#10004;)|
+[Einstellung](/settings/setting)|setting|&#10004;|&#10008;|&#10008;|&#10008;|
+[Dateien](/files/file)|files|&#10004;|&#10008;|&#10004;|&#10008;|
 
 Legende
 
