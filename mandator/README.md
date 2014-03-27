@@ -8,7 +8,5 @@
 </table>
 
 ## GET
-Beschreibung fehlt
+Service nur in der Entwicklungsumgebung vorhanden
 
-## POST/PUT/DELETE
-Steht nicht zur Verfügung
