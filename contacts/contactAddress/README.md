@@ -26,7 +26,7 @@ Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Pa
 # GET
 Parameter: die einzelnen Felder der XML-contactAddress-Knoten 
 
-*Erfolg* Die passenden Kontaktadressen (0-2000) werden angezeigt (Status 200 OK)
+**Erfolg** *Die passenden Kontaktadressen (0-2000) werden angezeigt (Status 200 OK)*
 ```xml
 <response>
   <status>0</status>
