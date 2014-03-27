@@ -1,4 +1,4 @@
-[Übersicht](../../)
+[Übersicht](../../../)
 
 # Login Service 
 `${domain}/rest/login/${version}`
