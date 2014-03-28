@@ -1,6 +1,4 @@
-﻿[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)
-
-[Datei](https://github.com/daturainformatik/econOfficeREST-API/tree/master/files/file)
+[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)&nbsp;|&nbsp;[Datei](https://github.com/daturainformatik/econOfficeREST-API/tree/master/files/file)
 
 # Directory
 <table>
