@@ -1,6 +1,6 @@
 [Übersicht](https://github.com/daturainformatik/econOfficeREST-API)
 
-# Wechselkurse (exchangeRates)
+# Wechselkurse (currencyExchangeRates)
 Zeigt die Wechselkurse eines Mandanten an
 
 <table>
@@ -23,9 +23,9 @@ Zeigt die aktuell verwendeten Buchungs- und Bewertungskurse eines Mandanten an.
 
 Parameter:
 
-	* `mandatorId` eindeutige Identifikation des Mandanten
-	* `isoText` eindeutiger ISO-Code der Währung z. B. CHF
-	* `password` Passwort, falls erforderlich
+* `mandatorId` eindeutige Identifikation des Mandanten
+* `isoText` eindeutiger ISO-Code der Währung z. B. CHF
+* `password` Passwort, falls erforderlich
 
 ```xml
 <response>
