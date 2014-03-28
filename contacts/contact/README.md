@@ -17,6 +17,10 @@ Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Pa
 2. [Daten des Adress-Dossiers mit der Nummer 16119 (zum Ausprobieren einfach die Adress-Nummer ändern)](http://dws.econoffice.ch/rest/contact/1?contactNumber=16119)
 
 ## GET
+Parameter:
+
+* `contactNumber` ganze Zahl, welche die Kontakt-Adresse eindeutig identifiziert
+* `recordRid` interne, eindeutig Resource Id
 
 ```xml
 <response>
