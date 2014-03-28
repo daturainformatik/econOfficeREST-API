@@ -1,6 +1,4 @@
-[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)
-
-[Einstellungen](https://github.com/daturainformatik/econOfficeREST-API/tree/master/settings/settingList)
+[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)&nbsp;|&nbsp;[Einstellungen](https://github.com/daturainformatik/econOfficeREST-API/tree/master/settings/settingList)
 
 # Setting
 <table>
