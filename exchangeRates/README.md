@@ -16,7 +16,7 @@ Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Pa
 - demo@client_1, secret
 - root@client_1, datura
 
-[Wechselkurse von Mandant 'public_2'](http://dws.econoffice.ch/rest/rest/currencyExchangeRate/1?mandatorId=public_2)
+[Wechselkurse von Mandant 'public_2'](http://dws.econoffice.ch/rest/currencyExchangeRate/1?mandatorId=public_2)
 
 ## GET
 Zeigt die aktuell verwendeten Buchungs- und Bewertungskurse eines Mandanten an.
