@@ -1,12 +1,5 @@
-[Übersicht](../)
+[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)
 
-# Mandanten
-
-<table>
-<tr><td>URI</td><td>${domain}/rest/mandator/${version}</td></tr>
-<tr><td>Beispiel</td><td>http(s)://beispiel.econoffice.com/rest/mandator/1?currency.isoCode=CHF</td></tr>
-</table>
-
-## GET
-Service nur in der Entwicklungsumgebung vorhanden
+# GET
+Service nur in der Entwicklungsumgebung vorhanden; die zulässigen Mandanten, Rollen und Rechte eines Benutzers werden beim Login oder mittels `/rest/login` (Methode: GET) angezeigt. 
 
