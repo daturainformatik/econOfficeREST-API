@@ -20,13 +20,12 @@ Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Pa
 3. [Postleitzahl beginnend mit dem Wert '9' und endend mit '4', und Nachname beginnend mit 'web'](http://dws.econoffice.ch/rest/contactAddresses/1?structuredAddress.postalCode=9__4&structuredName.lastname=Web)
 
 
-
 # GET
 Parameter: 
 
-	* die einzelnen Felder der XML-contactAddress-Knoten. Z.B. `keyName` oder `structuredName.title`
-	* `firstRow` ganze Zahl, welche die erste Ergebniszeile zurückgibt
-	* `maxRows` ganze Zahl, die angibt, wie viele Zeilen angezeigt werden sollen
+* die einzelnen Felder der XML-contactAddress-Knoten. Z.B. `keyName` oder `structuredName.title`
+* `firstRow` ganze Zahl, welche die erste Ergebniszeile zurückgibt
+* `maxRows` ganze Zahl, die angibt, wie viele Zeilen angezeigt werden sollen
 	
 **Erfolg** *Die passenden Kontaktadressen (0-2000) werden angezeigt (Status 200 OK)*
 ```xml
