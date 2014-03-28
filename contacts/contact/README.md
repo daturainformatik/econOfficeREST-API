@@ -1,7 +1,4 @@
-[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)|
-[Kontakte](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts)|
-[Kontakt-Adressen](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddresses)|
-[Kontakt-Adresse](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddress)|
+[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)&nbsp;|&nbsp;[Kontakte](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts)&nbsp;|&nbsp;[Kontakt-Adressen](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddresses)&nbsp;|&nbsp;[Kontakt-Adresse](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddress)
 
 # Kontakt
 <table>
