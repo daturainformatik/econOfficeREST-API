@@ -1,8 +1,4 @@
-[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)
-
-[Kontakte](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts)
-[Kontakt-Adressen](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddresses)
-[Kontakt](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contact)
+[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)&nbsp;|&nbsp;[Kontakte](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts)&nbsp;|&nbsp;[Kontakt-Adressen](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddresses)&nbsp;|&nbsp;[Kontakt](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contact)
 
 # Kontakt-Adresse
 Ermöglicht das Bearbeiten einer einzelnen Kontakte Adresse
@@ -27,8 +23,8 @@ Zeigt eine einzelne Kontaktadresse an
 
 Parameter:
 
-	* `contactNumber` ganze Zahl, welche die Kontakt-Adresse eindeutig identifiziert
-	* `recordRid` interne, eindeutig Resource Id
+* `contactNumber` ganze Zahl, welche die Kontakt-Adresse eindeutig identifiziert
+* `recordRid` interne, eindeutig Resource Id
 	
 **Erfolg** *Die passende Kontaktadresse(Status 200 OK)*
 
