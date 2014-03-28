@@ -13,7 +13,7 @@ Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Pa
 - demo@client_1, secret
 - root@client_1, datura
 
-[Unterverzeichnisse vom Pfad 'ad_address'](http://dws.econoffice.ch/rest/rest/directory/1?path=ad_address)
+[Unterverzeichnisse vom Pfad 'ad_address'](http://dws.econoffice.ch/rest/directory/1?path=ad_address)
 
 # GET
 Zeigt alle Dateien und Unterordner des Datei-Pfades an.
