@@ -16,8 +16,9 @@ Für die Authorisierung die Nutzer-Identifikation (Benutzer-ID@Kunden-ID) und Pa
 ## GET
 Gibt eine gespeicherte Datei zurück.
 
-Version 1: Zur Anzeige ['welcome_en.txt' am Pfad 'codes.emails'](http://dws.econoffice.ch/rest/rest/file/1/codes/emails/welcome_en.txt)
-Version 2: Zum Download ['welcome_en.txt' am Pfad 'codes.emails'](http://dws.econoffice.ch/rest/rest/file/2/codes/emails/welcome_en.txt)
+1. Version 1: Zur Anzeige ['welcome_en.txt' am Pfad 'codes.emails'](http://dws.econoffice.ch/rest/rest/file/1/codes/emails/welcome_en.txt)
+
+2. Version 2: Zum Download ['welcome_en.txt' am Pfad 'codes.emails'](http://dws.econoffice.ch/rest/rest/file/2/codes/emails/welcome_en.txt)
 
 ## PUT
 Erlaubt das Hochladen von 1-*n* Dateien in ein Verzeichnis. Es ist möglich mehrere Dateien gleichen Namens in einem Verzeichnis zu haben.
