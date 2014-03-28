@@ -18,7 +18,7 @@ Vorhandene REST-Services:
 [Kontakt-Liste](/contacts/contactAddresses)|contactAddresses|&#10004;|&#10008;|&#10008;|&#10008;|
 [Vollständiger Kontackt](/contacts/contact)|contact|&#10004;|&#10008;|&#10008;|&#10008;|
 [Wechselkurse](/exchangeRates)|exchangeRates|&#10004;|&#10008;|&#10008;|&#10008;|
-[Dateien](/files/file)|files|&#10004;|&#10008;|&#10004;|&#10008;|
+[Dateien](/files)|files|&#10004;|&#10008;|&#10004;|&#10008;|
 [Einstellungen](/settings/settingList)|settings|&#10004;|&#10008;|&#10008;|&#10008;|
 [Einstellung](/settings/setting)|setting|&#10004;|&#10008;|&#10008;|&#10008;|
 [System Vorgaben](/system)|system|&#10004;|&#10008;|&#10008;|&#10008;|
