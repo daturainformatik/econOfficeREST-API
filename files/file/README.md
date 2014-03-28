@@ -1,6 +1,4 @@
-﻿[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)
-
-[Verzeichnisse](https://github.com/daturainformatik/econOfficeREST-API/tree/master/files/directory)
+[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)&nbsp;|&nbsp;[Verzeichnisse](https://github.com/daturainformatik/econOfficeREST-API/tree/master/files/directory)
 
 # Directory
 <table>
@@ -30,10 +28,10 @@ Format: multipart/form-data
 
 Zwingende Parameter:
 
-	* `utilizer.table` die Tabelle, zu der diese Datei(en) gehört 
-	* `utilizer.recordRid` eindeutige Identifikation des dazugehörigen Datensatzes (zu welchem Datensatz aus dieser Tabelle gehört die Datei?)
-	* `path` der Pfad unter dem die Datei abgelegt werden soll
-	* `description` ein Text um den Inhalt der Datei zu beschreiben
-	* `files` Parameter unter dem die Dateien zu finden sind
+* `utilizer.table` die Tabelle, zu der diese Datei(en) gehört 
+* `utilizer.recordRid` eindeutige Identifikation des dazugehörigen Datensatzes (zu welchem Datensatz aus dieser Tabelle gehört die Datei?)
+* `path` der Pfad unter dem die Datei abgelegt werden soll
+* `description` ein Text um den Inhalt der Datei zu beschreiben
+* `files` Parameter unter dem die Dateien zu finden sind
 	
 Bei Erfolg werden die Meta-Daten der gespeicherten Dateien zurückgegeben
