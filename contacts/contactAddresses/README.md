@@ -1,8 +1,4 @@
-[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)
-
-[Kontakte](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts)
-[Kontakt-Adresse](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddress)
-[Kontakt](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contact)
+[Übersicht](https://github.com/daturainformatik/econOfficeREST-API)&nbsp;|&nbsp;[Kontakte](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts)&nbsp;|&nbsp;[Kontakt-Adresse](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contactAddress)&nbsp;|&nbsp;[Kontakt](https://github.com/daturainformatik/econOfficeREST-API/tree/master/contacts/contact)
 
 # Kontakt-Adressen
 Gibt eine Liste von 0 - 2000 Kontakt-Adressen zurück, auf die alle Suchparameter zutreffen.
